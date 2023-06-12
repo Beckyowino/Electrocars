@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(181, 194, 223);
+
+}
+.nav_links{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color:black;
+}
+a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+span{
+    font-size: xx-large;
+    text-decoration: wavy;
+    text-shadow: 4px 4px 5px red;
+    text-decoration-color: blue;
+    color:rgb(39, 15, 62)
+}
+img{
+    display: flex;
+    float: right;
+    width:750px;
+    height: 500px;
+}
+h1{
+    font-size: 85;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+button{
+    background-color: rgb(250, 71, 6);
+    color: #fff;
+    border-radius: 25px;
+    border-color:rgb(250, 71, 6);   
+    padding:12px 35px; 
+}
+button:hover{
+    color:blue;
+}
+a:hover{
+    color: bisque;
+    
+}
